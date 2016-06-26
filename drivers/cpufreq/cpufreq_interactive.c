@@ -131,7 +131,7 @@ static unsigned int cluster0_min_freq=0;
 }
 #endif /* CONFIG_MODE_AUTO_CHANGE */
 
-#define DEFAULT_SCREEN_OFF_MAX 1000000
+#define DEFAULT_SCREEN_OFF_MAX 400000
 static unsigned long screen_off_max = DEFAULT_SCREEN_OFF_MAX;
 
 struct cpufreq_interactive_tunables {
