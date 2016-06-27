@@ -168,13 +168,6 @@ CLEANCONFIG()
 	echo ""
 }
 
-CHANGELOG()
-{
-	echo "Make Changelog from Github Repo"
-	github_changelog_generator WildfireDEV/Hacker_Kernel_SM-G92X_MM
-	echo "Done!"
-}
-
 BUILD_BASE()
 {
 	export ARCH=arm64
@@ -464,7 +457,6 @@ REPACK_KERNEL_G920F()
 	      rm boot/zImage
 	      rm boot/dt.img
 	      cd $KERNEL_DIR
-	      CHANGELOG
 	      echo "All Done!"
 	
 	      echo ""
@@ -520,7 +512,6 @@ REPACK_KERNEL_G920FWSM()
 	      rm boot/zImage
 	      rm boot/dt.img
 	      cd $KERNEL_DIR
-	      CHANGELOG
 	      echo "All Done!"
 	
 	      echo ""
@@ -576,7 +567,6 @@ REPACK_KERNEL_G925F()
 	      rm boot/zImage
 	      rm boot/dt.img
 	      cd $KERNEL_DIR
-	      CHANGELOG
 	      echo "All Done!"
 	
 	      echo ""
@@ -632,7 +622,6 @@ REPACK_KERNEL_G925FWSM()
 	      rm boot/zImage
 	      rm boot/dt.img
 	      cd $KERNEL_DIR
-	      CHANGELOG
 	      echo "All Done!"
 	
 	      echo ""
@@ -691,7 +680,6 @@ rm -rf ./repackg920f.log
 	      rm boot/zImage
 	      rm boot/dt.img
 	      cd $KERNEL_DIR
-	      CHANGELOG
 	      echo "All Done!"
 	
 	      echo ""
@@ -753,7 +741,6 @@ rm -rf ./repackg920f.log
 	      rm boot/zImage
 	      rm boot/dt.img
 	      cd $KERNEL_DIR
-	      CHANGELOG
 	      echo "All Done!"
 	
 	      echo ""
@@ -815,7 +802,6 @@ rm -rf ./repackg920fwsm.log
 	      rm boot/zImage
 	      rm boot/dt.img
 	      cd $KERNEL_DIR
-	      CHANGELOG
 	      echo "All Done!"
 	
 	      echo ""
@@ -877,7 +863,6 @@ rm -rf ./repackg925fwsm.log
 	      rm boot/zImage
 	      rm boot/dt.img
 	      cd $KERNEL_DIR
-	      CHANGELOG
 	      echo "All Done!"
 	
 	      echo ""
