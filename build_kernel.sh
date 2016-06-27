@@ -194,7 +194,7 @@ CLEANCONFIG()
 CHANGELOG()
 {
 	echo "Make Changelog from Github Repo"
-	github_changelog_generator HRTKernel/Hacker_Kernel_SM-G92X_MM
+	github_changelog_generator WildfireDEV/Hacker_Kernel_SM-G92X_MM
 	echo "Done!"
 }
 
@@ -202,8 +202,8 @@ BUILD_BASE()
 {
 	export ARCH=arm64
         export SUBARCH=arm64
-	export KBUILD_BUILD_USER=thehacker911
-	export KBUILD_BUILD_HOST=smartlounge.eu
+	export KBUILD_BUILD_USER=WildfireDEV
+	export KBUILD_BUILD_HOST=buildbox
         export USE_CCACHE=1
         export USE_SEC_FIPS_MODE=true
         export ENABLE_GRAPHITE=true
